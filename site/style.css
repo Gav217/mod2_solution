@@ -1,5 +1,174 @@
-p {
 
-	color:brown;
-	font-size:10px;
+
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+
+#container {
+
+	width: 100%;
+}
+
+h1 {
+
+	text-align: center;
+}
+
+#heading1 h2 {
+
+	position: relative;
+	float: right;
+	margin:auto;
+	font-size: 18px;
+	background-color:#f4426b;
+	border:1px solid black;
+	padding: 5px;
+	width: 30%;
+	text-align:center;
+
+}
+
+#heading2 h2 {
+
+	position: relative;
+	float: right;
+	margin:auto;
+	color: white;
+	font-size: 18px;
+	background-color:#f44242;
+	border:1px solid black;
+	padding: 5px;
+	width: 30%;
+	text-align: center;
+
+}
+
+#heading3 h2 {
+
+	position: relative;
+	float: right;
+	margin:auto;
+	font-size: 18px;
+	background-color:#e5f442;
+	border:1px solid black;
+	padding: 5px 5px 5px 5px;
+	width: 30%;
+	text-align: center;
+
+}
+
+
+
+#sec1 {
+
+	border: 1px solid black;
+	float: left;
+	height: 150px;
+	width: 25%;
+	margin-left: 10%;
+	margin-top: 50px;
+	overflow: hidden;
+	background-color: #9b9490;
+}
+
+#sec2 {
+
+	border: 1px solid black;
+	float: left;
+	height: 150px;
+	width: 25%;
+	margin-left: 10px;
+	margin-top: 50px;
+	overflow: hidden;
+	background-color: #9b9490;
+
+}
+
+#sec3 {
+
+	border: 1px solid black;
+	float: left;
+	height: 150px;
+	width: 25%;
+	margin-left: 10px;
+	margin-top: 50px;
+	overflow: hidden;
+	background-color: #9b9490;
+
+}
+
+.dummy1 {
+
+	margin:auto;
+	padding: 50px 5px 0 5px;
+}
+
+.dummy2 {
+
+	margin:auto;
+	padding: 50px 10px 10px 10px;
+}
+
+.dummy3 {
+
+	margin:auto;
+	padding: 50px 10px 10px 10px;
+}
+
+@media screen (min-width: 992px) {
+
+	#sec1 {
+		width:25%;
+	}
+	#sec2 {
+
+		width:25%;
+	}
+	#sec3 {
+
+		width:25%;
+	}	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+	#sec1 {
+		width:33.33%;
+	}
+	#sec2 {
+
+		width:33.33%;
+	}
+	#sec3 {
+
+		width:68%;
+		margin-left: 10%;
+	}	
+}
+
+@media screen and (max-width: 767px) {
+
+
+
+	#sec1 {
+		width:50%;
+		margin: 20px;
+		margin-left: 25%
+
+	}
+	#sec2 {
+
+		width:50%;
+		margin:20px;
+		margin-left: 25%
+		
+	}
+	#sec3 {
+
+		width:50%;
+		margin:20px;
+		margin-left: 25%
+	}	
 }
